@@ -1,0 +1,107 @@
+.product-item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    position: relative;
+}
+.product-item-image{
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.item-counter{
+    position: absolute;
+    display: flex;
+    min-height: 30px;
+    min-width: 30px;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ede50ea8;
+    border-radius: 50%;
+    right: 5px;
+    top: 5px;
+    z-index: 100;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.item-count{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+.product-item-info{
+    border-top: 1px solid rgb(197, 197, 151);
+    padding: 20px;
+}
+.product-item-name{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.product-item-discription{
+    color: #676767;
+    font-size: 12px;
+}
+.product-item-price{
+    color:rgb(61, 60, 50);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.product-item-container{
+    position: relative;
+
+}
+.product-item-container .add{
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.product-add{
+    position: relative;
+}
+.product-add .add{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid rgb(80, 194, 64);
+    border-radius: 30px;
+    color: rgb(80, 194, 64);
+}
+.product-add .add:hover{
+    background-color: #bbe19e;
+}
+.product-item-counter{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.product-item-counter .add1{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid rgb(80, 194, 64);
+    border-radius: 30px;
+    color: rgb(80, 194, 64);
+    transition: 0.4s;
+}
+
+.product-item-counter .minus1{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid rgb(203, 56, 56);
+    border-radius: 30px;
+    color: rgb(203, 56, 56);
+    transition: 0.4s;
+}
+.product-item-counter .add1:hover{
+    background-color: #bbe19e;
+}
+
+.product-item-counter .minus1:hover{
+    background-color: #db9595;
+}
